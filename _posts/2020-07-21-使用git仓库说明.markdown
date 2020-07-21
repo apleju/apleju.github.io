@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "使用git仓库说明"
+date:   2020-07-21
+categories: study note
+---
+# 使用git仓库步骤
+- 1.复制git仓库地址
+- 2.打开命令行（终端），找到Documents/workspace/（git仓库下载代码文件夹，tab），粘贴地址（git clone 地址），下载git仓库。
+- 3.打开文本编辑器，编辑内容，保存
+- 4.打开终端，找到git本地仓库，检索有没有没存到暂存区的文件（git status）
+- 5.将文件添加到暂存区（git add 文件）
+- 6.检索有没有文件没有存到本地git仓库（git status）
+- 7.将暂存区的改动提交到git本地仓库（git commit -m "本次提交的内容的备注"）
+- 8.上传到远程git仓库（git push）
